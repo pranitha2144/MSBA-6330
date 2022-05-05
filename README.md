@@ -17,4 +17,4 @@ Our Team: AnkurAggarwal aggar158@umn.edu
 Garett Carlblom carlb050@umn.edu
 Yan Dong dong0248@umn.edu
 Pranitha Peddi peddi024@umn.edu
-Gayathri Ramanathan peddi024@umn.edu
+Gayathri Ramanathan raman141@umn.edu
