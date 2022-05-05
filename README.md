@@ -12,7 +12,7 @@ Check out our Flyer here: https://drive.google.com/file/d/1kXkFT26MzbvqWqD0yU8sr
 
 Gartner Hype Cycle for Cloud Computing in 2021 showing Multi Cloud at the "peak of inflated expections" : https://www.gartner.com/interactive/hc/4003590?ref=solrAll&refval=324960013
 
-Please check out the set up instructions on InstructionManual.pdf file and the python script pythontoazure.py to replicate this project.
+Please check out the set up instructions on InstructionManual.pdf file and the python script pythonazure.py to replicate this project.
 
 Please reach out to us if you have any questions.
 
