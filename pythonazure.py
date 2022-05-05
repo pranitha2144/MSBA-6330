@@ -123,11 +123,14 @@ def getWSBStocks():
     return top10
 def getstockdata():
     df1=pd.DataFrame()
+    #getting trending stocks using the function created above
     df1["Symbol"]=getWSBStocks()
     names=[]
     for i in df1["Symbol"]:
         names.append(si.get_quote_data(i)["shortName"])
     df1["Name"]=names
+
+    #live price of stock
     df1["livePrice"]=df1["Symbol"].apply(si.get_live_price)
     
     #PE ratio
@@ -144,7 +147,7 @@ def getstockdata():
     df1["Volume_inMill"]=stkvol
     
     
-    
+    #50daymovavg
     movavgs=[]
     for i in df1["Symbol"]:
         movavgs.append(si.get_data(i, interval='1d')['close'][-50:].mean())
@@ -158,11 +161,14 @@ def getstockdata():
     for i in df1["Symbol"]:
         movavgs.append(si.get_data(i, interval='1d')['close'][-200:].mean())
     df1["twohundaymovavg"]=movavgs
+
+    #previous day closing price
     import yfinance as yf
     yestprices=[]
     for i in df1["Symbol"]:
         yestprices.append(yf.download( tickers = i,period = "2d",interval = "1d").iloc[0,3])
     df1["prevdayclosingprice"]=yestprices
+
     #1 month price history
     df2=pd.DataFrame()
     monthlypricehistory=[]
