@@ -8,7 +8,7 @@ In this project titled, "Streaming Data Analysis using Multi Cloud Strategy" we 
 
 Please check out our presentation video here: https://youtu.be/iZopI_Rtcw0
 
-Check out our Flyer here: https://drive.google.com/file/d/1kXkFT26MzbvqWqD0yU8srm_hQAzvkmUS/view?usp=sharing
+Check out our Flyer here: https://drive.google.com/file/d/1ylaeEWPy_HiM2z8Ypv1JeR6pdMoJYCi4/view?usp=sharing
 
 Gartner Hype Cycle for Cloud Computing in 2021 showing Multi Cloud at the "peak of inflated expections" : https://www.gartner.com/interactive/hc/4003590?ref=solrAll&refval=324960013
 
