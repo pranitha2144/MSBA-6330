@@ -189,6 +189,8 @@ def getstockdata():
     df1.index.name='Index'
     return df1.to_dict("record")
 
+
+#defining a function that updates data real time(at defined frequency)
 async def run():
     while True:
         
